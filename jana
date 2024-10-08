@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Our College</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #007bff;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .hero {
+            background: url('college-hero.jpg') no-repeat center center/cover;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+        .content {
+            padding: 20px;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our College</h1>
+        <nav>
+            <a href="#about">About Us</a>
+            <a href="#admissions">Admissions</a>
+            <a href="#programs">Programs</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    
+    <div class="hero">
+        <h2>Empowering Future Leaders</h2>
+    </div>
+    
+    <div class="content">
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Our college is dedicated to providing high-quality education and fostering an environment of learning and growth.</p>
+        </section>
+        
+        <section id="admissions">
+            <h2>Admissions</h2>
+            <p>Join us and take the first step toward a brighter future. Apply now for the upcoming semester!</p>
+        </section>
+        
+        <section id="programs">
+            <h2>Programs</h2>
+            <p>We offer a variety of undergraduate and graduate programs to suit your interests and career goals.</p>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions, feel free to reach out to us!</p>
+            <p>Email: info@college.edu</p>
+            <p>Phone: (123) 456-7890</p>
+        </section>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Our College. All rights reserved.</p>
+    </footer>
+</body>
+</html>
